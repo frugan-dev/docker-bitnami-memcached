@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+
+  memcached:
+    container_name: ${MEMCACHED_NAME}
+    build:
+      context: .
+      args:
+        MEMCACHED_TAG: ${MEMCACHED_TAG}
+    networks:
+      - default
+    environment:
+      MEMCACHED_CACHE_SIZE: ${MEMCACHED_CACHE_SIZE}
+      MEMCACHED_USERNAME: ${MEMCACHED_USERNAME}
+      MEMCACHED_PASSWORD: ${MEMCACHED_PASSWORD}

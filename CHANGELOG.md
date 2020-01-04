@@ -1,3 +1,10 @@
+## [Unreleased](https://github.com/frugan-it/docker-bitnami-memcached/compare/v1.0.0...HEAD)
+
+### Commits
+
+- Updated CHANGELOG [`8c1c27b`](https://github.com/frugan-it/docker-bitnami-memcached/commit/8c1c27b07e8e4673f0f5290e5d3f6d6219dcf94a)
+- Updated .env file [`6ea8d21`](https://github.com/frugan-it/docker-bitnami-memcached/commit/6ea8d212687efa0ac5ebdce10ab71d497bc40de8)
+
 ## v1.0.0 - 2020-01-04
 
 ### Commits

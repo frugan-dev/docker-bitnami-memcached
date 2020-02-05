@@ -1,3 +1,5 @@
 ARG MEMCACHED_TAG
 
-FROM bitnami/memcached:${MEMCACHED_TAG:-latest}
+ENV MEMCACHED_TAG=${MEMCACHED_TAG:-latest}
+
+FROM bitnami/memcached:${MEMCACHED_TAG}
